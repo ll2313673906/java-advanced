@@ -31,25 +31,25 @@ public class RandomColor {
         //获取画笔
         Graphics g =bufferedImage.getGraphics();
         //设置字体
-        Font font = new Font("微软雅黑",Font.BOLD,16);
+        Font font = new Font("微软雅黑",Font.BOLD,25);
         g.setFont(font);
         //设置画笔颜色，使用随机生成的颜色
 
         Color color = new Color(redRandom,greenRandom,blueRandom);
         g.setColor(color);
         //开始绘制矩形，充满图片的缓冲区
-        g.fillRect(0,0,120,40);
+        g.fillRect(0,0,250,80);
         //输出图片
         g.setColor(Color.BLACK);
-        for (int i = 0 ; i <= 50; i++){
-            int x = random.nextInt(120);
-            int y = random.nextInt(40);
-            int x1 = random.nextInt(12);
-            int y1= random.nextInt(12);
+        for (int i = 0 ; i <= 80; i++){
+            int x = random.nextInt(250);
+            int y = random.nextInt(30);
+            int x1 = random.nextInt(30);
+            int y1= random.nextInt(30);
             g.drawLine(x,y,x + x1,y + y1);
         }
 
-       g.drawString("M" + "B" + "V" + "g",40,25);
+        g.drawString("M" + "r" + "V" + "g",25,30);
         //指定文件路径
         File file = new File("F:/code.jpg");
 
