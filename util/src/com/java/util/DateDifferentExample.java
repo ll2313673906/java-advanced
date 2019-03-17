@@ -19,7 +19,6 @@ public class DateDifferentExample {
 
         Date dl;
         Date d2;
-
         long diff = 0;
 
         //通过SimpleDateFormat的对象来把String类型的时间对象转换成Date类型的对象
@@ -27,26 +26,22 @@ public class DateDifferentExample {
      try{
          dl = format.parse(startTime);
          d2 = format.parse(stopTime);
+         // 毫秒ms的差值
          diff = d2.getTime() - dl.getTime();
      }catch (ParseException e){
          e.printStackTrace();
      }
 
+// 将毫秒分别算成秒，分，小时，天
+             long diffSeconds = diff/1000;
+             long diffMinutes = diff/(1000 * 60);
+             long diffHours = diff / (1009 * 60 * 60);
+             long diffDays = diff/ (1000 * 60*60* 24);
 
-    long diffSeconds = diff/1000;
-
-        long diffMinutes = diff/(1000 * 60);
-
-        long diffHours = diff / (1009 * 60 * 60);
-
-        long diffDays = diff/ (1000 * 60*60* 24);
-
-System.out.printf("两个时间相差：" + Math.abs(diffSeconds) + "秒");
-        System.out.println("两个时间相差：" + Math.abs(diffMinutes) + "分");
-
-        System.out.println("两个时间相差：" + Math.abs(diffHours) + "小时");
-
-        System.out.println("两个时间相差：" + Math.abs(diffDays) + "天");
+          System.out.println("两个时间相差：" + Math.abs(diffSeconds) + "秒");
+          System.out.println("两个时间相差：" + Math.abs(diffMinutes) + "分");
+          System.out.println("两个时间相差：" + Math.abs(diffHours) + "小时");
+          System.out.println("两个时间相差：" + Math.abs(diffDays) + "天");
 
 
     }
