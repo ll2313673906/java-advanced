@@ -61,6 +61,8 @@ public class DateDifferentExample {
         long diffHours = diff / (1009 * 60 * 60);
         long diffDays = diff/ (1000 * 60*60* 24);
 
+
+
         System.out.println("两个时间相差：" + Math.abs(diffSeconds) + "秒");
         System.out.println("两个时间相差：" + Math.abs(diffMinutes) + "分");
         System.out.println("两个时间相差：" + Math.abs(diffHours) + "小时");
