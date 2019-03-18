@@ -12,14 +12,19 @@ import java.util.Date;
  */
 public class DateDifferentExample {
     public static void main(String[] args) {
+
+        // 创建日期获取本地的时间
         Date date = new Date();
         DateFormat df2 = new SimpleDateFormat("yyy-MM-dd hh:mm:ss EE");
+
+        // 分别定义起止的时间
         String Time1 = "2019-3-18 08:19:00";
         String Time2 = "2019-3-18 08:10:00";
         String Time3 = "2019-3-18 03:00:00";
         String Time4 = "2019-03-17 08:00:30";
 
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
         String stopTime = format.format(date);
         Date d1;
         Date d2;
