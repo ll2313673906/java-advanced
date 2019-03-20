@@ -24,7 +24,6 @@ public class BookListTest {
         for (int i = 0,len = list.size();i < len; i++){
             System.out.print(list.get(i).getId() + "\t\t\t" + list.get(i).getName() + "\t\t\t" + list.get(i).getPrice());
             System.out.println();
-
         }
 
         //用Iterator迭代器遍历集合
@@ -33,7 +32,6 @@ public class BookListTest {
         while (iterator.hasNext()){
             Book book = iterator.next();
             System.out.println(book.getId() + "\t\t\t" + book.getName() + "\t\t\t" + book.getPrice());
-
         }
         //用Lambda表达式遍历集合
         System.out.println("用Lambda表达式遍历集合\t\t" );

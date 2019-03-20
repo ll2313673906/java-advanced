@@ -1,6 +1,7 @@
 package com.soft1841.list;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListTest {
@@ -19,6 +20,7 @@ public class ListTest {
         }
         // 3 通过Iterator迭代器遍历集合
 
-        // 4 通过Lambda表达式遍历集合
+
+
     }
 }
