@@ -38,8 +38,8 @@ enum Week {
                 return Week.SATURDAY;
             case "sun":
                 return Week.SUNDAY;
-                default:
-                    return Week.MONDAY;
+            default:
+                return Week.MONDAY;
         }
     }
 }
@@ -48,7 +48,7 @@ public class Enum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Week week = Week.getWeek(scanner.next());
-        switch (week){
+        switch (week) {
             case MONDAY:
                 System.out.println("MONDAY——" + week.getName());
                 break;
@@ -70,12 +70,10 @@ public class Enum {
             case SUNDAY:
                 System.out.println("SUNDAY——" + week.getName());
                 break;
-           default:
-               System.out.println("MONDAY——" + week.getName());
-
+            default:
+                System.out.println("MONDAY——" + week.getName());
 
 
         }
     }
-
 }
