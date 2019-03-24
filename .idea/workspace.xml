@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6824665f-196c-4248-871f-3204dc276ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection-study/src/com/soft1841/FlowLayoutPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection-study/src/com/soft1841/Season.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection-study/src/com/soft1841/map/ClendarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/collection-study/src/com/soft1841/map/ClendarDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +42,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="15446" />
+          <entry key="java" value="15481" />
           <entry key="txt" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15446" />
+          <entry key="JAVA" value="15481" />
           <entry key="PLAIN_TEXT" value="106" />
         </counts>
       </usages-collector>
@@ -140,12 +135,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/FlowLayoutPosition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="147">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -277,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553469798332" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553470215811" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -319,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlowLayoutPosition">
+  <component name="RunManager" selected="Application.Season">
     <configuration name="ClendarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.map.ClendarDemo" />
       <module name="collection-study" />
@@ -394,8 +388,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlowLayoutPosition" />
         <item itemvalue="Application.Season" />
+        <item itemvalue="Application.FlowLayoutPosition" />
         <item itemvalue="Application.ClendarDemo" />
         <item itemvalue="Application.Enum" />
         <item itemvalue="Application.StudentTest" />
@@ -419,7 +413,7 @@
       <workItem from="1552859966789" duration="44914000" />
       <workItem from="1553161965531" duration="3323000" />
       <workItem from="1553410173908" duration="106000" />
-      <workItem from="1553429146175" duration="2089000" />
+      <workItem from="1553429146175" duration="2329000" />
     </task>
     <task id="LOCAL-00001" summary=" study">
       <created>1552361847672</created>
@@ -498,11 +492,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553208742532</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Swing的流式布局">
+      <created>1553469879970</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553469879970</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82367000" />
+    <option name="totallyTimeSpent" value="82607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -517,7 +518,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48311308" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48311308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3979442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -584,7 +585,8 @@
     <MESSAGE value="Comparable接口使用" />
     <MESSAGE value="枚举练习" />
     <MESSAGE value="Calendar练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calendar练习" />
+    <MESSAGE value="Swing的流式布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swing的流式布局" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/util/src/com/java/util/Hello.java" />
@@ -839,12 +841,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/FlowLayoutPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="147">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
           </folding>
         </state>
       </provider>
