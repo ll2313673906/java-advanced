@@ -25,7 +25,7 @@ public class BorderLayoutPosition extends JFrame {
         c.add(southBtn,BorderLayout.SOUTH);
         c.add(westBtn,BorderLayout.WEST);
         c.add(eastBtn,BorderLayout.EAST);
-        setSize(350,200);
+        setSize(350,210);
         setVisible(true);
         // 设置窗体关闭方式
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
