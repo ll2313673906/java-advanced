@@ -19,7 +19,7 @@ public class Season extends JFrame {
         container.add(new JButton("B.白雪纷纷何所似,撒盐空中差可似。"));
         container.add(new JButton("C.接天莲叶无穷碧，映日荷花别样红。"));
         container.add(new JButton("D.竹外桃花三两枝,春江水暖鸭先知。"));
-        setSize(500,200);
+        setSize(500,400);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setVisible(true);
         setResizable(false);
