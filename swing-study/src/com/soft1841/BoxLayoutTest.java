@@ -39,6 +39,7 @@ public class BoxLayoutTest extends JFrame {
             JPanel jPanel = new JPanel();
             jPanel.setPreferredSize(new Dimension(410,120));
             jPanel.setBackground(new Color(246,162,179));
+            middlePanel.add(jPanel);
             middlePanel.add(Box.createVerticalStrut(20));
         }
         add(middlePanel,BorderLayout.CENTER);
