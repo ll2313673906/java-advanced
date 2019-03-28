@@ -9,6 +9,7 @@ import javax.swing.plaf.basic.BasicButtonUI;
 import java.awt.*;
 
 /**
+ * Sing-null空布局管理器
  * @author 刘恋
  * 2019.3.28
  */
@@ -74,7 +75,7 @@ public class LoginFrame extends JFrame {
         add(confirmButton);
         add(cancelButton);
         bgLabel = new JLabel();
-        Icon bgIcon = new ImageIcon(LoginFrame.class.getResource("/img/bg.jpg"));
+        Icon bgIcon = new ImageIcon(LoginFrame.class.getResource("/img/fengzi.jpg"));
         bgLabel.setIcon(bgIcon);
         bgLabel.setBounds(0,0,640,480);
         add(bgLabel);
