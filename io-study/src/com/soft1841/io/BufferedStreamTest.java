@@ -14,7 +14,7 @@ public class BufferedStreamTest {
         // 定义字符数组
         String content[] = {"你不喜欢我，","我一点也不介意。","因为我活下来，","并不是为了取悦你。"};
         // 创建文件对象
-        File file = new File("word.txt");
+        File file = new File("F:/word.txt");
         // 创建FileOutputStream对象
         FileOutputStream fos = null;
         // 创建BufferedOUTputString对象
