@@ -1,4 +1,4 @@
-package com.soft1841;
+package com.soft1841.thread;
 
 /**
  * 继承thread类创建并启动线程

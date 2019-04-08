@@ -1,4 +1,4 @@
-package com.soft1841;
+package com.soft1841.runnable;
 
 /**
  * 实现Runnable接口
