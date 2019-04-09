@@ -6,7 +6,7 @@ package com.soft1841.runnable;
  * 2019.4.8
  */
 
-public class RunnableTest extends Object implements Runnable{
+public class RunnableTest extends Object implements Runnable {
     private int count = 10;
 
     @Override
