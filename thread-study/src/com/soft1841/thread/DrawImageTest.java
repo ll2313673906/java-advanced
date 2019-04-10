@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * 在好窗体中绘制图像
+ * 在窗体中绘制图像
  * @author 刘恋
  * 2019.4.11
  */

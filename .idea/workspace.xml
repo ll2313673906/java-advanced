@@ -207,11 +207,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="10" />
-    <option name="width" value="937" />
-    <option name="height" value="1023" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="12" />
+    <option name="y" value="1" />
+    <option name="width" value="930" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -275,7 +275,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554935427320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554935598976" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -305,6 +305,7 @@
       <recent name="F:\JavaStudy\java-advanced\swing-study\src\com\soft1841" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaStudy\java-advanced\thread-study\src\img" />
       <recent name="F:\JavaStudy\java-advanced\swing-study\src\img" />
       <recent name="F:\JavaStudy\java-advanced\swing-study\jar" />
       <recent name="F:\JavaStudy\java-advanced\util\src\com\java\util" />
