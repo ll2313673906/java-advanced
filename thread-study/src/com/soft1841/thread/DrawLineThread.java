@@ -11,19 +11,18 @@ import java.util.Random;
 public class DrawLineThread implements Runnable {
     int x = 200;
     int y = 100;
+
     private JFrame frame;
-  private Color[] colors = {Color.BLACK,Color.BLUE,Color.CYAN,
-          Color.GREEN,Color.ORANGE,Color.YELLOW,
-          Color.RED,Color.PINK,Color.LIGHT_GRAY};
+    private Color[] colors = {Color.RED,Color.ORANGE,
+    Color.YELLOW,Color.GREEN,Color.CYAN,Color.BLUE};
     public void setFrame(JFrame frame){
-        this.frame =frame;
+        this.frame = frame;
     }
     @Override
     public void run() {
-
         Random random = new Random();
         while (true){
-            try {
+            try{
                 Thread.sleep(500);
             }catch (InterruptedException e){
                 e.printStackTrace();
@@ -36,5 +35,6 @@ public class DrawLineThread implements Runnable {
                 y = 100;
             }
         }
+
     }
 }

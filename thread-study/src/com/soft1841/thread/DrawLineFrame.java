@@ -11,25 +11,23 @@ import java.util.Random;
  */
 
 public class DrawLineFrame extends JFrame {
-
     public DrawLineFrame(){
-       init();
-       setTitle("绘制彩色线段");
-       setSize(900,600);
-       setLocationRelativeTo(null);
-       setVisible(true);
-       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+        init();
+        setTitle("绘制彩色线段");
+        setLocationRelativeTo(null);
+        setSize(900,600);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public void init(){
-        getContentPane().setBackground(new Color(10,34,250));
-        DrawLineThread drawLineThread = new DrawLineThread();
-        drawLineThread.setFrame(this);
-        new Thread(drawLineThread).start();
+       getContentPane().setBackground(new Color(23,35,178));
+       DrawLineThread drawLineThread = new DrawLineThread();
+       drawLineThread.setFrame(this);
+       new Thread(drawLineThread).start();
     }
- public static void main (String[] args){
-                   new DrawLineFrame();
-                }
+
+    public static void main(String[] args) {
+        new DrawLineFrame();
+    }
 
 }
-
