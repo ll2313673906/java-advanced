@@ -1,0 +1,61 @@
+package com.soft1841.thread;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+/**
+ *线程的暂停和恢复
+ * @author 刘恋
+ * 2019.4.12
+ */
+
+public class NumberFrame extends JFrame implements ActionListener {
+
+    private JLabel numberLabel;
+    private JButton pauseBtn,resumeBtn;
+    private NumberThread numberThread;
+
+    public NumberFrame(){
+        init();
+        setSize(400,400);
+        setLocation(300,200);
+        setTitle("线程的暂停和恢复");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    }
+    public void init(){
+        pauseBtn =  new JButton("暂停");
+        resumeBtn = new JButton("恢复");
+        pauseBtn.addActionListener(this);
+        resumeBtn.addActionListener(this);
+        numberLabel = new JLabel();
+        Font font = new Font("微软雅黑",Font.BOLD,50);
+        numberLabel.setFont(font);
+        setLayout(new FlowLayout(FlowLayout.CENTER,30,100));
+        add(numberLabel);
+        add(pauseBtn);
+        add(resumeBtn);
+        numberThread= new NumberThread();
+        numberThread.setNumLabel(numberLabel);
+        Thread thread = new Thread(numberThread);
+        thread.start();
+    }
+
+    public static void main(String[] args) {
+        new NumberFrame();
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+      if (e.getSource() == pauseBtn){
+          numberThread.pauseThread();
+      }
+      if (e.getSource() == resumeBtn){
+          numberThread.resumeThread();
+      }
+    }
+}

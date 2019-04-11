@@ -11,10 +11,11 @@ import java.awt.*;
 
 public class DrawImageTest extends JFrame {
     public DrawImageTest(){
-        this.setSize(500,380);
+        this.setSize(1000,500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         add(new CanvasTest());
         this.setTitle("在窗体中绘制图像");
+
     }
 
     public static void main(String[] args) {
