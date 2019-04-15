@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6824665f-196c-4248-871f-3204dc276ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/join/JoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/Circle99Frame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/CircleThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ComponentPaintFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/TimerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ComponentPaintFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ComponentPaintFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,14 +55,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="java" value="43277" />
-          <entry key="txt" value="209" />
+          <entry key="java" value="43335" />
+          <entry key="txt" value="219" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="43277" />
-          <entry key="PLAIN_TEXT" value="255" />
+          <entry key="JAVA" value="43335" />
+          <entry key="PLAIN_TEXT" value="265" />
         </counts>
       </usages-collector>
     </session>
@@ -91,14 +86,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ComponentPaintFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="-42">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#557#876#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#1015#1349#0" expanded="true" />
-                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#558#917#0" expanded="true" />
+                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#1035#1468#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -245,6 +240,14 @@
               <item name="soft1841" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="soft1841" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="timer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -255,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555367086450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555369979943" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -426,7 +429,7 @@
       <workItem from="1554653333139" duration="8332000" />
       <workItem from="1554720967657" duration="22730000" />
       <workItem from="1554819088739" duration="17154000" />
-      <workItem from="1555051445166" duration="21477000" />
+      <workItem from="1555051445166" duration="22637000" />
     </task>
     <task id="LOCAL-00001" summary=" study">
       <created>1552361847672</created>
@@ -638,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555286858389</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="绘制组件">
+      <created>1555367114586</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1555367114586</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244848000" />
+    <option name="totallyTimeSpent" value="246008000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -654,7 +664,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.08579089" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1769437" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.77272725" />
@@ -716,7 +726,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JDK8中的时间日期处理" />
     <MESSAGE value="String ，StringBuffer，StringBuilder的比较" />
     <MESSAGE value="计算两个Date的差值" />
     <MESSAGE value="List数组练习" />
@@ -741,7 +750,8 @@
     <MESSAGE value="在窗体中绘制图像" />
     <MESSAGE value="线程的暂停和恢复" />
     <MESSAGE value="线程模拟交通灯场景" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程模拟交通灯场景" />
+    <MESSAGE value="绘制组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="绘制组件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo.java">
@@ -1167,14 +1177,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ComponentPaintFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="-42">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#557#876#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#1015#1349#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#558#917#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+            <element signature="e#1035#1468#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
           </folding>
         </state>
       </provider>
