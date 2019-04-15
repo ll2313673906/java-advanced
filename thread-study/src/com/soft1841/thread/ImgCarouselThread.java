@@ -7,12 +7,12 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class ImgCarouselThread implements Runnable{
-    private String[] imgs = {"D:/carousel/2.jpg",
-            "D:/carousel/2.jpg",
-            "D:/carousel/2.jpg",
-            "D:/carousel/2.jpg",
-            "D:/carousel/2.jpg",
-            "D:/carousel/2.jpg"};
+    private String[] imgs = {"D:/carousel/Yellow.png",
+            "D:/carousel/Yellow.png",
+            "D:/carousel/Yellow.png",
+            "D:/carousel/Yellow.png",
+            "D:/carousel/Yellow.png",
+            "D:/carousel/Yellow.png"};
     private JLabel jLabel;
 
     public void setjLabel(JLabel jLabel) {

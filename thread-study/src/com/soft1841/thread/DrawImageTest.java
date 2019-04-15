@@ -28,7 +28,7 @@ public class DrawImageTest extends JFrame {
             // 创建绘图对象
             Graphics2D g2 = (Graphics2D)g;
             // 获取图片资源
-            Image img = new ImageIcon(this.getClass().getResource("/img/1.jpg")).getImage();
+            Image img = new ImageIcon(this.getClass().getResource("/img/Red.png")).getImage();
             // 显示图像
             g2.drawImage(img,0,0,this);
         }
