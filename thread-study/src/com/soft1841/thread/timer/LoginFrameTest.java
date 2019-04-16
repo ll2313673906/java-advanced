@@ -126,7 +126,7 @@ public class LoginFrameTest extends JFrame {
             String basePath = System.getProperty("user.dir");
             Image bg = null;
             try {
-                bg = ImageIO.read(new File(basePath + "2" + imgPath));
+                bg = ImageIO.read(new File(basePath + "/swing-study/src/img/" + imgPath));
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -134,4 +134,3 @@ public class LoginFrameTest extends JFrame {
         }
     }
 }
-
