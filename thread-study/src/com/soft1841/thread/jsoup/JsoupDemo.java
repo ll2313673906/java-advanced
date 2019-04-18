@@ -15,7 +15,7 @@ import org.jsoup.select.Elements;
 public class JsoupDemo {
     public static void main(String[] args) throws Exception {
         //1、指定目标页面连接
-        String url = "https://www.jianshu.com/u/951f5b10854b";
+        String url = "https://www.jianshu.com/";
         //2、建立与目标页面的连接
         Connection connection = Jsoup.connect(url);
         //3、解析目标页面
