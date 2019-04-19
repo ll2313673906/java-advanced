@@ -25,14 +25,14 @@ public class JSoupDemo2 {
         File file;
         InputStream inputStream;
         OutputStream outputStream;
-        String url = "http://www.youzhan.org/";
+        String url = "https://book.douban.com/tag/%E8%AF%97%E6%AD%8C";
         Connection connection = Jsoup.connect(url);
         Document document = connection.get();
-        Element elementDiv = document.getElementById("post-list");
-        Elements elements = elementDiv.getElementsByClass("col-xs-12");
+       // Element elementDiv = document.getElementById("post-list");
+        Elements elements = document.getElementsByClass("pic");
         System.out.println(elements.size());
         for (Element e:elements){
-            Element imgElement = e.child(0).child(1).child(0).child(0);
+            Element imgElement = e.child(0).child(0);
             UUID uuid = UUID.randomUUID();
             String imgName = uuid +".jpg";
             file = new File("D:\\qn1\\"+imgName);

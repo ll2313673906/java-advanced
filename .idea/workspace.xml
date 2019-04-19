@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6824665f-196c-4248-871f-3204dc276ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JSoupDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JsoupDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JsoupDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JSoupDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JSoupDemo2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,14 +59,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
-          <entry key="java" value="48210" />
-          <entry key="txt" value="231" />
+          <entry key="java" value="48232" />
+          <entry key="txt" value="236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48210" />
-          <entry key="PLAIN_TEXT" value="277" />
+          <entry key="JAVA" value="48232" />
+          <entry key="PLAIN_TEXT" value="282" />
         </counts>
       </usages-collector>
     </session>
@@ -89,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JSoupDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="110">
+              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,10 +184,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1289" />
-    <option name="height" value="1038" />
+    <option name="x" value="-58" />
+    <option name="y" value="6" />
+    <option name="width" value="1019" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -242,7 +241,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555629899233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555647723333" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -417,7 +416,7 @@
       <workItem from="1555372199613" duration="11000" />
       <workItem from="1555372225108" duration="48000" />
       <workItem from="1555372350106" duration="31380000" />
-      <workItem from="1555510446413" duration="9296000" />
+      <workItem from="1555510446413" duration="11166000" />
     </task>
     <task id="LOCAL-00001" summary=" study">
       <created>1552361847672</created>
@@ -657,14 +656,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555543502890</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Jsoup爬取图片">
+      <created>1555629951970</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1555629951970</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287085000" />
+    <option name="totallyTimeSpent" value="288955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -673,10 +679,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.26118723" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.58233535" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.62852114" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6182635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3979442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,7 +741,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="List数组练习" />
     <MESSAGE value="List接口练习" />
     <MESSAGE value="Comparable接口使用" />
     <MESSAGE value="枚举练习" />
@@ -760,7 +765,8 @@
     <MESSAGE value="绘制组件" />
     <MESSAGE value="join的用法" />
     <MESSAGE value="JSoup爬虫练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSoup爬虫练习" />
+    <MESSAGE value="Jsoup爬取图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jsoup爬取图片" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/CarouselFrame.java">
@@ -1108,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JSoupDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="110">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
