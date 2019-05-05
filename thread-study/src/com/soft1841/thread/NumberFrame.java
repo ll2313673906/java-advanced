@@ -13,7 +13,7 @@ import java.awt.event.ActionListener;
 
 public class NumberFrame extends JFrame implements ActionListener {
 
-    private JLabel numberLabel;
+       private JLabel numberLabel;
     private JButton pauseBtn,resumeBtn;
     private NumberThread numberThread;
 
@@ -51,11 +51,11 @@ public class NumberFrame extends JFrame implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-      if (e.getSource() == pauseBtn){
-          numberThread.pauseThread();
-      }
-      if (e.getSource() == resumeBtn){
-          numberThread.resumeThread();
-      }
+        if (e.getSource() == pauseBtn){
+            numberThread.pauseThread();
+        }
+        if (e.getSource() == resumeBtn){
+            numberThread.resumeThread();
+        }
     }
 }

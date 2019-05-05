@@ -28,7 +28,7 @@ public class JSoupDemo2 {
         String url = "https://book.douban.com/tag/%E8%AF%97%E6%AD%8C";
         Connection connection = Jsoup.connect(url);
         Document document = connection.get();
-       // Element elementDiv = document.getElementById("post-list");
+        // Element elementDiv = document.getElementById("post-list");
         Elements elements = document.getElementsByClass("pic");
         System.out.println(elements.size());
         for (Element e:elements){

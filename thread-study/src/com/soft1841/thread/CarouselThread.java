@@ -13,8 +13,8 @@ import java.io.InputStream;
  */
 
 public class CarouselThread implements Runnable{
-    private String[] imgs = {"D:/carousel/Red.png",
-            "D:/carousel/Yellow.png","D:/carousel/Green.png",
+    private String[] imgs = {"D:/carousel/1.jpg",
+            "D:/carousel/2.jpg","D:/carousel/3.jpg",
             "D:/carousel/4.jpg","D:/carousel/5.jpg","D:/carousel/6.jpg"};
     private JLabel bgLabel;
 

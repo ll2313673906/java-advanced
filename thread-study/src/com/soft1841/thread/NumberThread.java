@@ -10,6 +10,7 @@ import javax.swing.*;
 public class NumberThread implements Runnable {
     private JLabel numLabel;
     public void setNumLabel(JLabel numLabel){
+
         this.numLabel = numLabel;
     }
     private final Object lock = new Object();

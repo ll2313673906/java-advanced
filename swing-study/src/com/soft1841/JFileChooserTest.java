@@ -25,7 +25,6 @@ public class JFileChooserTest extends JFrame implements ActionListener {
         setTitle("JFileChooserTest");
         setSize(900,600);
         setLocationRelativeTo(null);
-        setResizable(false);
         setVisible(true);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 

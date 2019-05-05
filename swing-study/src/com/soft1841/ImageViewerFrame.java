@@ -33,7 +33,7 @@ public class ImageViewerFrame extends JFrame implements ActionListener {
         setSize(1000,600);
         //窗体居中显示
         setLocationRelativeTo(null);
-        setResizable(false);
+
         //窗体可见
         setVisible(true);
         //关闭方式
