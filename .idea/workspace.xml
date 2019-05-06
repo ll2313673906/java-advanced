@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6824665f-196c-4248-871f-3204dc276ac6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/comprehensive/CarouselThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/comprehensive/HomeworkFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/comprehensive/TimerThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/socket-study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/ServerThread3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io-study/src/com/soft1841/io/UuidFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/swing-study/src/com/soft1841/ImageViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/ImageViewerFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swing-study/src/com/soft1841/JFileChooserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/JFileChooserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/CarouselThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/CarouselThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/DrawLineFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/DrawLineFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/NumberFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/NumberFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/NumberThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/NumberThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JSoupDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/jsoup/JSoupDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-study/src/com/soft1841/Server.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +53,7 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="2" />
-          <entry key="java" value="523" />
+          <entry key="java" value="530" />
           <entry key="jpg" value="6" />
           <entry key="tmp_b10f5de4975bb1b1895ed2c324fe72ed8243a8015f6c8513" value="2" />
         </counts>
@@ -65,7 +62,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="6" />
-          <entry key="JAVA" value="523" />
+          <entry key="JAVA" value="530" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -73,13 +70,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="java" value="61576" />
+          <entry key="java" value="62827" />
           <entry key="txt" value="236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="61576" />
+          <entry key="JAVA" value="62827" />
           <entry key="PLAIN_TEXT" value="296" />
         </counts>
       </usages-collector>
@@ -88,10 +85,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Server.java">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="400">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +97,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Client.java">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/ServerThread3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="588">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,14 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/TrafficlightsFrame.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/TurnColor.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/TraficLights.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/TimerDemo.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ConcentricCircleFrame.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ConcentricCircleTimer.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/Circle99Frame.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/CircleThread.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/Circle.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/join/JoinTest.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/timer/ComponentPaintFrame.java" />
@@ -177,8 +180,16 @@
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/comprehensive/LineThread1.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/comprehensive/HomeworkFrame.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/DrawLineFrame.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Client.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Server.java" />
+        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Client.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/Client.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client1.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server1.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client2.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server2.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/ServerThread3.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server3.java" />
+        <option value="$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client3.java" />
       </list>
     </option>
   </component>
@@ -198,8 +209,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1025" />
-    <option name="height" value="1050" />
+    <option name="width" value="1072" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -215,12 +226,29 @@
           <expand>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thread-study" type="462c0819:PsiDirectoryNode" />
+              <item name="socket-study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socket-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socket-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="soft1841" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="socket-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="soft1841" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread-study" type="462c0819:PsiDirectoryNode" />
-              <item name="jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
@@ -258,12 +286,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557098091808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557181622202" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-study/jar/jsoup-1.11.3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -316,13 +344,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="CarouselFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.thread.CarouselFrame" />
-      <module name="thread-study" />
+  <component name="RunManager" selected="Application.Client3">
+    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.socket.Client1" />
+      <module name="socket-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.thread.*" />
+          <option name="PATTERN" value="com.soft1841.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -330,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.thread.how.Client" />
-      <module name="thread-study" />
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.socket.Client2" />
+      <module name="socket-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.thread.how.*" />
+          <option name="PATTERN" value="com.soft1841.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -343,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountdownFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.thread.join.CountdownFrame" />
-      <module name="thread-study" />
+    <configuration name="Client3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.socket.Client3" />
+      <module name="socket-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.thread.join.*" />
+          <option name="PATTERN" value="com.soft1841.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawLineFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.thread.DrawLineFrame" />
-      <module name="thread-study" />
+    <configuration name="Server1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.socket.Server1" />
+      <module name="socket-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.thread.*" />
+          <option name="PATTERN" value="com.soft1841.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.thread.how.Server" />
-      <module name="thread-study" />
+    <configuration name="Server3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.socket.Server3" />
+      <module name="socket-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.thread.how.*" />
+          <option name="PATTERN" value="com.soft1841.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,19 +411,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DrawLineFrame" />
-      <item itemvalue="Application.CarouselFrame" />
-      <item itemvalue="Application.CountdownFrame" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server1" />
+      <item itemvalue="Application.Client1" />
+      <item itemvalue="Application.Client2" />
+      <item itemvalue="Application.Server3" />
+      <item itemvalue="Application.Client3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.DrawLineFrame" />
-        <item itemvalue="Application.CountdownFrame" />
-        <item itemvalue="Application.CarouselFrame" />
+        <item itemvalue="Application.Client3" />
+        <item itemvalue="Application.Server3" />
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Client1" />
+        <item itemvalue="Application.Server1" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +468,7 @@
       <workItem from="1556091938195" duration="16459000" />
       <workItem from="1556188318177" duration="14983000" />
       <workItem from="1556349315997" duration="6739000" />
-      <workItem from="1557015866134" duration="2685000" />
+      <workItem from="1557015866134" duration="9742000" />
     </task>
     <task id="LOCAL-00001" summary=" study">
       <created>1552361847672</created>
@@ -694,14 +722,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555647744683</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="网络编程1">
+      <created>1557098171185</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1557098171185</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386323000" />
+    <option name="totallyTimeSpent" value="393380000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="0" width="820" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -710,7 +745,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18632708" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.71391076" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47067448" />
@@ -773,7 +808,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="List接口练习" />
     <MESSAGE value="Comparable接口使用" />
     <MESSAGE value="枚举练习" />
     <MESSAGE value="Calendar练习" />
@@ -798,58 +832,10 @@
     <MESSAGE value="join的用法" />
     <MESSAGE value="JSoup爬虫练习" />
     <MESSAGE value="Jsoup爬取图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jsoup爬取图片" />
+    <MESSAGE value="网络编程1" />
+    <option name="LAST_COMMIT_MESSAGE" value="网络编程1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/NumFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/JFileChooserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="251" selection-start-line="251" selection-end-line="251" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/FileCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1129,20 +1115,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Client.java">
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="209">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread-study/src/com/soft1841/thread/how/Server.java">
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/ServerThread3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Client3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/socket/Server3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
