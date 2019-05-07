@@ -9,7 +9,7 @@ import java.net.Socket;
  */
 public class Client1 {
     public static void main(String[] args)throws IOException {
-        Socket socket = new Socket("10.40.170.126",10091);
+        Socket socket = new Socket("10.40.170.126",10086);
         // 获取客户端的输入流
         InputStream in = socket.getInputStream();
         byte[] b = new byte[1024];

@@ -18,9 +18,32 @@ public class Server3 {
         System.out.println("服务器启动");
         while (true) {
             Socket socket = serverSocket.accept();
-           ServerThread3 server = new ServerThread3(socket);
+           ServerThread1 server = new ServerThread1(socket);
            new Thread(server).start();
 
         }
     }
 }
+class ServerThread1 implements Runnable {
+    private Socket socket;
+
+    public ServerThread1(Socket socket) {
+        this.socket = socket;
+    }
+
+    @Override
+    public void run() {
+        System.out.println("客户端" + socket.getInetAddress() + "连接陈功！");
+        InputStream inputStream = null;
+        try {
+            inputStream = socket.getInputStream();
+            BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
+            System.out.println(br.readLine());
+            br.close();
+            socket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
