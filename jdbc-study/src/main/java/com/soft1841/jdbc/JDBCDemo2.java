@@ -8,14 +8,14 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 /**
- * JDBC起步练习
+ * JDBC新增数据
  * author刘恋
  * 2019.5.15
  */
 
 public class JDBCDemo2 {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/db_jdbc?useUnicode = true&charaacterEncoding = utf8";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/db_jdbc?useUnicode=true&charaacterEncoding=utf8";
     static final String USER = "root";
     static final String PASS = "root";
 
