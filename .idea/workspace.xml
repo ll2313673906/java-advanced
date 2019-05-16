@@ -7,8 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6824665f-196c-4248-871f-3204dc276ac6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jdbc-study/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,10 +54,10 @@
           <entry key="MF" value="1" />
           <entry key="class" value="2" />
           <entry key="form" value="9" />
-          <entry key="java" value="573" />
+          <entry key="java" value="578" />
           <entry key="jpg" value="7" />
           <entry key="tmp_b10f5de4975bb1b1895ed2c324fe72ed8243a8015f6c8513" value="2" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -64,24 +65,24 @@
           <entry key="CLASS" value="2" />
           <entry key="GUI_DESIGNER_FORM" value="9" />
           <entry key="Image" value="7" />
-          <entry key="JAVA" value="573" />
+          <entry key="JAVA" value="578" />
           <entry key="Manifest" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="60" />
-          <entry key="java" value="69038" />
-          <entry key="txt" value="255" />
+          <entry key="java" value="69866" />
+          <entry key="txt" value="259" />
           <entry key="xml" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="69038" />
-          <entry key="PLAIN_TEXT" value="315" />
+          <entry key="JAVA" value="69866" />
+          <entry key="PLAIN_TEXT" value="319" />
           <entry key="XML" value="71" />
         </counts>
       </usages-collector>
@@ -90,10 +91,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/gui/URL/URLDemo.java">
+        <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimLoginFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            <state relative-caret-position="220">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,17 +105,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="240">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/NumberFrame.java" />
-        <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/NumberThread.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/comprehensive/CountdownThread.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/comprehensive/NumberThread.java" />
         <option value="$PROJECT_DIR$/thread-study/src/com/soft1841/thread/CarouselThread.java" />
@@ -190,6 +213,8 @@
         <option value="$PROJECT_DIR$/jdbc-study/pom.xml" />
         <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo1.java" />
         <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java" />
+        <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java" />
+        <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java" />
       </list>
     </option>
   </component>
@@ -225,7 +250,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1010" />
+    <option name="width" value="958" />
     <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -239,15 +264,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gui-form" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdbc-study" type="462c0819:PsiDirectoryNode" />
@@ -298,7 +314,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557959299204" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558025272105" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -356,20 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDBCDemo2">
-    <configuration name="CloudMusicFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.CloudMusicFrame" />
-      <module name="gui-form" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JDBCDemo3">
     <configuration name="JDBCDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo1" />
       <module name="jdbc-study" />
@@ -396,6 +399,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDBCDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo3" />
+      <module name="jdbc-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo4" />
+      <module name="jdbc-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="URLDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.URL.URLDemo" />
       <module name="socket-study" />
@@ -409,33 +438,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WechatFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.WechatFrame" />
-      <module name="gui-form" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.CloudMusicFrame" />
-      <item itemvalue="Application.WechatFrame" />
       <item itemvalue="Application.URLDemo" />
       <item itemvalue="Application.JDBCDemo1" />
       <item itemvalue="Application.JDBCDemo2" />
+      <item itemvalue="Application.JDBCDemo3" />
+      <item itemvalue="Application.JDBCDemo4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCDemo3" />
+        <item itemvalue="Application.JDBCDemo4" />
         <item itemvalue="Application.JDBCDemo2" />
         <item itemvalue="Application.JDBCDemo1" />
         <item itemvalue="Application.URLDemo" />
-        <item itemvalue="Application.WechatFrame" />
-        <item itemvalue="Application.CloudMusicFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -483,7 +499,7 @@
       <workItem from="1557015866134" duration="18573000" />
       <workItem from="1557266966587" duration="1250000" />
       <workItem from="1557297202264" duration="37353000" />
-      <workItem from="1557851352495" duration="4561000" />
+      <workItem from="1557851352495" duration="10864000" />
     </task>
     <task id="LOCAL-00001" summary=" study">
       <created>1552361847672</created>
@@ -800,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557958737885</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="JDBC新增数据">
+      <created>1557959440347</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1557959440347</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445375000" />
+    <option name="totallyTimeSpent" value="451678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -816,11 +839,11 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.43733335" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.52487135" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24193548" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3979442" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24926686" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7580645" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -828,7 +851,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.53592813" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32258064" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.31610942" />
       <window_info active="true" anchor="bottom" id="SVN Repositories" order="12" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -879,7 +902,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BoxLayout布局管理器" />
     <MESSAGE value="遍历文件夹" />
     <MESSAGE value="CardLayout" />
     <MESSAGE value="带缓冲的输入输出流" />
@@ -904,23 +926,10 @@
     <MESSAGE value="网络编程6" />
     <MESSAGE value="JDBC起步练习" />
     <MESSAGE value="JDBC起步练习2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JDBC起步练习2" />
+    <MESSAGE value="JDBC新增数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDBC新增数据" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/gui/list/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/gui/io/ImgReaderFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="863">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/gui/io/OutputEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1140,13 +1149,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Demo.form" />
     <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/Demo.java" />
-    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimLoginFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/gui/LoginFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1184,13 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc-study/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket-study/src/com/soft1841/gui/URL/URLDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1201,17 +1196,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo1.java">
+    <entry file="file://$PROJECT_DIR$/jdbc-study/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="260">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui-form/src/com/soft1841/gui/TimLoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="240">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1272,7 +1304,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gui-form</last-edited>
+          <last-edited>io-study</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1296,6 +1328,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
