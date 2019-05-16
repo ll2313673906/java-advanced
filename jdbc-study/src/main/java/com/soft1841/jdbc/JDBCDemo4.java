@@ -28,7 +28,6 @@ public class JDBCDemo4 {
         int n = pstm.executeUpdate();
         System.out.println(n + "行记录受影响");
         pstm.close();
-        conn.close();
-
+       conn.close();
     }
 }
