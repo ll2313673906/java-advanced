@@ -22,7 +22,7 @@ public class LoginFrameTest extends JFrame {
         width = screenSize.width;
         height = screenSize.height;
         init();
-        setTitle("登陆界面");
+       // setTitle("登陆界面");
         setSize(width, height);
         setLocationRelativeTo(null);
         //窗口大小不可变
@@ -114,23 +114,23 @@ public class LoginFrameTest extends JFrame {
         }
     }
 
-    class ImgPanel extends JPanel {
-        private String imgPath;
+ class ImgPanel  extends JPanel {
+     private String imgPath;
 
-        public void setImgPath(String imgPath) {
-            this.imgPath = imgPath;
-        }
+     public void setImgPath(String imgPath) {
+         this.imgPath = imgPath;
+     }
 
-        @Override
-        protected void paintComponent(Graphics g) {
-            String basePath = System.getProperty("user.dir");
-            Image bg = null;
-            try {
-                bg = ImageIO.read(new File(basePath + "/swing-study/src/img/" + imgPath));
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            g.drawImage(bg, 0, 0, getWidth(), getHeight(), this);
-        }
-    }
+     @Override
+     protected void paintComponent(Graphics g) {
+         String basePath = System.getProperty("user.dir");
+         Image bg = null;
+         try {
+             bg = ImageIO.read(new File(basePath + "/swing-study/src/img/" + imgPath));
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
+         g.drawImage(bg, 0, 0, getWidth(), getHeight(), this);
+     }
+ }
 }
